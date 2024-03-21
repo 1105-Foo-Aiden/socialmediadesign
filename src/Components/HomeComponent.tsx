@@ -7,15 +7,13 @@ import OverviewComponent from "./OverviewComponent";
 export default function HomeComponent() {
   return (
     <>
-      <div>
-        <section className="p-8 container mx-auto">
-          <HeaderComponent /> 
+      <div className="bg-slate-100 dark:bg-slate-800 absolute w-full h-52 -z-10"></div>
+        
+        <section className="p-8 max-w-7xl container mx-auto">
+          <HeaderComponent />
           <CardComponent />
-          <OverviewComponent/>
+          <OverviewComponent />
         </section>
-      </div>
-
-     
     </>
   );
 }

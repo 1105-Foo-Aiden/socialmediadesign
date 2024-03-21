@@ -15,4 +15,5 @@ body {
   font-family: "Inter", sans-serif;
   -webkit-font-smoothig: antialiased; 
   -moz-osx-font-smoothing: greyscale;
+  @apply dark:bg-slate-900
 }

@@ -6,11 +6,12 @@ export default function HeaderComponent() {
     <>
       <header className="flex items-center justify-between">
         <div>
-          <h1 className="font-bold text-2xl text-slate-800">
+          <h1 className="font-bold text-2xl text-slate-800 dark:text-white">
             Social Media Dashboard
           </h1>
-          <p className="text-slate-600 font-bold">Total Followers: 23,004</p>
+          <p className="text-slate-600 font-bold dark:text-slate-400">Total Followers: 23,004</p>
         </div>
+        <ToggleComponent/>
       </header>
     </>
   );
