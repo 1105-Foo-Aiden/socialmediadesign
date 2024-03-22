@@ -1,4 +1,3 @@
-import React from "react";
 import facebook from "./Assets/icon-facebook.svg";
 import instagram from "./Assets/icon-instagram.svg";
 import twitter from "./Assets/icon-twitter.svg";
@@ -25,7 +24,7 @@ export default function CardComponent() {
           <img src={up} alt="" className="mr-2 w-3"/> 12 Today
         </p>
       </article>
-
+      
       <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded-md dark:shadow-slate-700 border-t-4 border-blue-500 hover:bg-slate-300 dark:hover:bg-slate-700">
         <ul className="flex items-center justify-center text-center mt-3">
           <li>

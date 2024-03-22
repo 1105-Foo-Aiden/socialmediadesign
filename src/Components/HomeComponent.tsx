@@ -1,6 +1,4 @@
-import React from "react";
 import CardComponent from "./CardComponent";
-import ToggleComponent from "./ToggleComponent";
 import HeaderComponent from "./HeaderComponent";
 import OverviewComponent from "./OverviewComponent";
 
