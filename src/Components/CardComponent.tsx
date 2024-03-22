@@ -42,7 +42,7 @@ export default function CardComponent() {
       </article>
 
       <article className="bg-slate-200 dark:bg-slate-800 p-5 rounded-md dark:shadow-slate-700 relative hover:bg-slate-300 dark:hover:bg-slate-700">
-        <div className="bg-gradient-to-r from-[#fdc468] to-[#df4996] h-1 w-full rounded-tl-sm rounded-tr-sm absolute top-0 left-0"></div>
+        <div className="bg-gradient-to-r from-[#fdc468] to-[#df4996] h-1 w-full rounded-tl-md rounded-tr-md absolute top-0 left-0"></div>
         <ul className="flex items-center justify-center text-center mt-3">
           <li>
             <img src={instagram} alt="" className="mr-2"/>
