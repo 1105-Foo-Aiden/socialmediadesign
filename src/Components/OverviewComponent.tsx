@@ -11,7 +11,7 @@ export default function OverviewComponent() {
     <>
       <h2 className="text-slate-600 font-bold mb-8 text-2xl md:text-3xl dark:text-white">Overeview - Today</h2>
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Page Views</li>
                 <li><img src={facebook} alt="Facebook" /></li>
@@ -22,7 +22,7 @@ export default function OverviewComponent() {
             </ul>
         </article>
 
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Likes</li>
                 <li><img src={facebook} alt="Facebook" /></li>
@@ -33,7 +33,7 @@ export default function OverviewComponent() {
             </ul>
         </article>
 
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Likes</li>
                 <li><img src={instagram} alt="Facebook" /></li>
@@ -44,7 +44,7 @@ export default function OverviewComponent() {
             </ul>
         </article>
 
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Profile Views</li>
                 <li><img src={instagram} alt="Facebook" /></li>
@@ -55,7 +55,7 @@ export default function OverviewComponent() {
             </ul>
         </article>
 
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Retweets</li>
                 <li><img src={twitter} alt="twitter" /></li>
@@ -66,7 +66,7 @@ export default function OverviewComponent() {
             </ul>
         </article>
 
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Likes</li>
                 <li><img src={twitter} alt="twitter" /></li>
@@ -77,7 +77,7 @@ export default function OverviewComponent() {
             </ul>
         </article>
 
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Likes</li>
                 <li><img src={youtube} alt="youtube" /></li>
@@ -88,7 +88,7 @@ export default function OverviewComponent() {
             </ul>
         </article>
 
-        <article className="bg-slate-200 p-5 rounded shadow shadow-slate-50 dark:bg-slate-800 dark:shadow-slate-700">
+        <article className="bg-slate-200 p-5 rounded dark:bg-slate-800 dark:shadow-slate-700 hover:bg-slate-300 dark:hover:bg-slate-700">
             <ul className="flex items-center justify-between mb-5">
                 <li className="text-slate-600 font-bold dark:text-slate-400">Total Views</li>
                 <li><img src={youtube} alt="youtube" /></li>
