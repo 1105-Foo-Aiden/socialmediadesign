@@ -1,3 +1,6 @@
+##Peer Reviewer: Zachary Dressel
+##Review: Website is coded in Typescript and has the general idea of what the design was going for, but fails to hit the details properly. With a little better spacing and other minor design changes it would be perfect. For now, still great!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
