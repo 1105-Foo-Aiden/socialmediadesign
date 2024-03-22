@@ -4,7 +4,7 @@ import ToggleComponent from "./ToggleComponent";
 export default function HeaderComponent() {
   return (
     <>
-      <header className="grid items-center space-between lg:grid-cols-2 sm:grid-rows-2">
+      <header className="grid items-center space-between lg:grid-cols-2">
         <div>
           <h1 className="font-bold text-2xl text-slate-800 dark:text-white ">
             Social Media Dashboard
