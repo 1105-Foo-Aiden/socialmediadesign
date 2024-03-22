@@ -7,7 +7,7 @@ import OverviewComponent from "./OverviewComponent";
 export default function HomeComponent() {
   return (
     <>
-      <div className="bg-[#f5f7ff] dark:bg-[#1f212e] absolute w-full h-52 -z-10"></div>
+      <div className="bg-[#f5f7ff] dark:bg-[#1f212e] absolute w-full h-80 -z-10"></div>
         
         <section className="p-8 max-w-7xl container mx-auto">
           <HeaderComponent />
